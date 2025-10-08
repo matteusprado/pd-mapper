@@ -1,10 +1,7 @@
 name: C/C++ CI
 
 on:
-  push:
-    branches: [ "support_msm_firmware_loader" ]
-  pull_request:
-    branches: [ "support_msm_firmware_loader" ]
+  workflow_dispatch:
 
 jobs:
   build:
